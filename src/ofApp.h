@@ -8,10 +8,14 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
+		void InsertSort();
+		void BubbleSort();
+		void CocktailSort();
+		void MergeSort();
 
 	private:
-		int listLength = 100;
-		int list[100];
+		int length = 10;
+		int list[10];	
 		int cycleCount = 0;
 		int j;
 };

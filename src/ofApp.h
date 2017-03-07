@@ -12,10 +12,12 @@ class ofApp : public ofBaseApp{
 		void BubbleSort();
 		void CocktailSort();
 		void MergeSort();
+		void SinghalSort();
 
 	private:
 		int length = 10;
-		int list[10];	
+		int list[10];
 		int cycleCount = 0;
+		int mergeCycles = 0;
 		int j;
 };
